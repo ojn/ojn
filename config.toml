@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "https://www.ojn.ovh/"
 languageCode = "en"
 DefaultContentLanguage = "en"
