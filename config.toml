@@ -1,0 +1,52 @@
+baseURL = "https://www.ojn.ovh/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "www.ojn.ovh"
+theme = "sunrise"
+summarylength = 10
+paginate = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+title = "ojn"
+author = "ojn"
+description = "rants, notes and stuff"
+profilePicture = "images/profile.svg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/ojn/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "www.ojn.ovh"
+  identifier = "site"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
