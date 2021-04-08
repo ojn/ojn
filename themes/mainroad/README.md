@@ -89,7 +89,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   customJS = ["js/custom.js"] # Include custom JS files
 
 [Params.style.vars]
-  highlightColor = "#e22d30" # Override highlight color
+  highlightColor = "#3c283c" # Override highlight color
 
   # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
   # Take care of different quotes OR escaping symbols in these params if necessary
