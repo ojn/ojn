@@ -1,5 +1,8 @@
 ### Hi there! 😄
 
+![tux-hacker](./static/images/tux-hacker.gif)
+
+
 <!--
 **ojn/ojn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
