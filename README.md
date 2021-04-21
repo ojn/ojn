@@ -1,6 +1,6 @@
 ### Hi there!
 
-<img src="/ojn/ojn/raw/main/static/images/tux-hacker.gif" alt="tux-hacker" width="184" height="200">
+<img src="./static/images/tux-hacker.gif" alt="tux-hacker" width="184" height="200">
 
 
 <!--
