@@ -1,6 +1,5 @@
 ### Hi there!
 
-<img src="./static/images/tux-hacker.gif" alt="tux-hacker" width="184" height="200">
 
 
 <!--
