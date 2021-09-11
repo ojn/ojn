@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>RSS or Atom feed - www.ojn.ovh</title>
+        <title>screen - www.ojn.ovh</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -73,7 +73,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="helper one-liners.html">helper one-liners</a></li><li class="chapter-item "><a href="index.html">www.ojn.ovh!</a></li><li class="chapter-item "><a href="Mallard docs.html">Mallard docs</a></li><li class="chapter-item "><a href="mdzk.html">mdzk</a></li><li class="chapter-item expanded "><a href="RSS or Atom feed.html" class="active">RSS or Atom feed</a></li><li class="chapter-item "><a href="screen.html">screen</a></li><li class="chapter-item "><a href="small notes.html">small notes</a></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="helper one-liners.html">helper one-liners</a></li><li class="chapter-item "><a href="index.html">www.ojn.ovh!</a></li><li class="chapter-item "><a href="Mallard docs.html">Mallard docs</a></li><li class="chapter-item "><a href="mdzk.html">mdzk</a></li><li class="chapter-item "><a href="RSS or Atom feed.html">RSS or Atom feed</a></li><li class="chapter-item expanded "><a href="screen.html" class="active">screen</a></li><li class="chapter-item "><a href="small notes.html">small notes</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -130,25 +130,26 @@
                 <div id="content" class="content">
                     <main>
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
-<h1 id="rss-or-atom-feed"><a class="header" href="#rss-or-atom-feed">RSS or Atom feed</a></h1>
-<p>Simple useful thing for your website to publish updates to the readers. </p>
-<p>To make your RSS feed discoverable, put this HTML snippet in the head part of your document (HTML or a template file )</p>
-<pre><code>&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Example RSS&quot; href=&quot;https://www.example.com/index.xml&quot;&gt;
+<h1 id="screen"><a class="header" href="#screen">screen</a></h1>
+<p>to prevent screensaver from kicking in, create no-screensaver.desktop file in <code>~/.config/autostart</code> with following: </p>
+<pre><code>[Desktop Entry]
+Type=Application
+Exec=xset -dpms s off s noblank s 0 0 s noexpose
+Hidden=false
+Name=No screensaver
 </code></pre>
-<blockquote>
-<ul>
-<li><a href="index.html">www.ojn.ovh!</a></li>
-</ul>
-</blockquote>
+<p>to check if you are using X or Wayland: </p>
+<pre><code>echo $XDG_SESSION_TYPE
+</code></pre>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="mdzk.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="RSS or Atom feed.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="screen.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="small notes.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -157,10 +158,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="mdzk.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="RSS or Atom feed.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="screen.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="small notes.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

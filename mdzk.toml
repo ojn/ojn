@@ -20,5 +20,5 @@ enable = false
 [output.html.fold]
 enable = true
 
-[preprocessor.backlinks]
-header = "Backlinks"
+# [preprocessor.backlinks]
+# header = "Backlinks"
