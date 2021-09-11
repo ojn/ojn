@@ -1,0 +1,24 @@
+[book]
+authors = ["ojn"]
+language = "en"
+multilingual = false
+src = "src"
+title = "www.ojn.ovh"
+
+[build]
+build-dir = "notes"
+create-missing = true
+
+[output.html]
+copy-fonts = false
+no-section-label = true
+site-url = "www.ojn.ovh/notes"
+
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = true
+
+[preprocessor.backlinks]
+header = "Backlinks"
